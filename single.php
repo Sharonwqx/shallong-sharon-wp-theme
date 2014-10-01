@@ -8,11 +8,10 @@
  */
 
 get_header(); 
-
-get_sidebar();?>
+?>
 
 	
-		<section id="content" class="post-main" role="main">
+		<section id="content" class="post-main  col-sm-6 col-sm-offset-3" role="main">
 			
 				<?php
 					// Start the Loop.
@@ -44,6 +43,6 @@ get_sidebar();?>
 	
 
 <?php
-
+get_sidebar();
 get_footer();
 ?>

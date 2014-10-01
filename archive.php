@@ -19,7 +19,7 @@
 
 get_header(); ?>
 
-	<section id="primary" class="site-content">
+	<section id="primary" class="site-content  col-sm-6 col-sm-offset-3">
 		
 
 			<?php if ( have_posts() ) : ?>

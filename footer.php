@@ -9,9 +9,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
-		
-	<div style="clear:both"></div>
+<div style="clear:both"></div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 
 		<?php get_sidebar( 'footer' ); ?>
@@ -20,6 +18,7 @@
 
 	<div style="clear:both"></div>
 	<?php wp_footer(); ?>
+</div> <!--End row-->
 
 </body>
 </html>

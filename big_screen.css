@@ -1,0 +1,15 @@
+/* CSS Document */
+
+
+.header{
+			 position:fixed;
+}			
+.profile{
+				margin-left:25%;
+				width:50%;
+}		
+			
+#categorylist li { 
+				
+				padding: 5px 5px;
+}

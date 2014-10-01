@@ -1,5 +1,5 @@
 
-<section class="sidebar">
+<section class="sidebar col-sm-3">
 	<div class="sideContent">
 		<?php dynamic_sidebar('index');?>
 		<!--

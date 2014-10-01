@@ -2,7 +2,7 @@
 
 	
 
-	   <section class="post-main">
+	   <section class="post-main col-sm-6 col-sm-offset-3" >
 		<?php if(have_posts()):
 				while (have_posts()): the_post(); ?>
 				

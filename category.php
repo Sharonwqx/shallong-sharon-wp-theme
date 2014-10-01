@@ -16,7 +16,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-			<div id="content" class="post-main" role="main">
+			<div id="content" class="post-main col-sm-6 col-sm-offset-3" role="main">
 			<header class="archive-header">
 				<h1 class="archive-title"><?php printf( 'Category Archives: %s', single_cat_title( '', false ) ); ?></h1>
 

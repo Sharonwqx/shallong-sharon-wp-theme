@@ -31,15 +31,12 @@ html,body{
 	text-align:center;
 	padding: 2%;
 	background-color: #ACD6FF;
-	width:230px;
 	height:100%;
-	position:fixed;
 }
 
 .firstTitle{
 	font-size: 300%;
 	font-weight: bold;
-	
 }
 
 .description{
@@ -47,14 +44,12 @@ html,body{
 	padding: 1%;
 }
 
+
 /*++++++++++++++++++++++++++post++++++++++++++++++++++++++++*/
 .post-main{
 	text-align:left;
 	background-color: #BBFFBB;
-	float:left;
-	width:53%;
-	position:relative;
-	margin-left:285px;
+
 }
 .post{
 	width:90%;
@@ -73,8 +68,6 @@ html,body{
 /*++++++++++++++++++++++++++sidebar+++++++++++++++++++++++++++++*/
 
 .sidebar{
-	float: right;	
-	width: 25%;
 	background-color: #FFEEDD;
 }
 
@@ -106,20 +99,26 @@ html,body{
 #categorylist {
 	font-size:20px; 
 	font-style:normal;
-    text-transform:uppercase;
-	float:left;
+ text-transform:uppercase;
+	 
 }
 #categorylist ul {
 	list-style-type: none; 
 	list-style-image:none; 
-    margin:0; 
+    margin:20px; 
 }
-#categorylist li { 
-	display: inline;
-	padding: 0px 5px;
-}
+
 #categorylist a:link, #category a:visited {color:blue}
 #categorylist a:hover {color:red}
+/*
+.nav, .nav ul {
+    line-height: 28px;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}*/
 
 .taxonomy-description{
 	font-style:italic;
@@ -195,5 +194,5 @@ p {
 .pagination{
 	font-size: smaller;
 	padding-top: 1%,0%;
-
+	width:100%;
 }
